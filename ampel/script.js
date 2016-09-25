@@ -34,12 +34,13 @@ function gruenaus(){
   document.getElementById('grueneins').style.backgroundColor="grey";
   document.getElementById('gruenzwei').style.backgroundColor="grey";
 }
-var phase=1;
+var phase=0;
 
 function ampel(){
 
   var d=setInterval(switchLights, 2000);
 }
+
 
 function switchLights(){
   if(phase==1){
