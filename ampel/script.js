@@ -1,3 +1,53 @@
+function Ampel(ampel,start){
+  this.ampel=ampel;
+  this.state=start;
+  this.greenLight=false;
+  this.yellowLight=false;
+  this.redLight=false;
+  this.off="grey";
+}
+
+Ampel.prototype.getState = function () {
+    return this.state;
+};
+Ampel.prototype.switchState = function () {
+    document.getElementById('rot'+this.ampel).style.backgroundColor=this.off;
+    document.getElementById('gelb'+this.ampel).style.backgroundColor=this.off;
+    document.getElementById('gruen'+this.ampel).style.backgroundColor=this.off;
+    this.state++;
+    console.log("start: "+this.state);
+    if(this.state==1){
+      console.log("red: "+this.state);
+      this.greenLight=false;
+      this.yellowLight=false;
+      this.redLight=true;
+    }else if(this.state==2){
+      console.log("yellow: "+this.state);
+      this.greenLight=false;
+      this.yellowLight=true;
+      this.redLight=false;
+    } else if(this.state==3){
+      console.log("green: "+this.state);
+      this.greenLight=true;
+      this.yellowLight=false;
+      this.redLight=false;
+    } else if(this.state==4){
+      console.log("yellow two: "+this.state);
+      this.greenLight=false;
+      this.yellowLight=true;
+      this.redLight=false;
+      this.state=0;
+    }
+    if(this.redLight)
+      document.getElementById('rot'+this.ampel).style.backgroundColor="red";
+    if(this.yellowLight)
+      document.getElementById('gelb'+this.ampel).style.backgroundColor="yellow";
+    if(this.greenLight)
+      document.getElementById('gruen'+this.ampel).style.backgroundColor="green";
+
+};
+
+
 function switchOff(){
 console.log("ist drin");
 document.getElementById('demo').innerHTML = "Ampel aus";
@@ -36,37 +86,14 @@ function gruenaus(){
 }
 var phase=1;
 
-function ampel(){
-
+function ampelfunc(){
+  ampel1=new Ampel("eins",1);
+  ampel2=new Ampel("zwei",3);
   var d=setInterval(switchLights, 2000);
 }
 
 
 function switchLights(){
-  if(phase==1){
-    console.log("P1: "+phase);
-    document.getElementById('roteins').style.backgroundColor="red";
-    document.getElementById('gelbeins').style.backgroundColor="grey";
-    document.getElementById('grueneins').style.backgroundColor="grey";
-    phase++;
-  }else if(phase==2){
-    console.log("P2: "+phase);
-    document.getElementById('roteins').style.backgroundColor="grey";
-    document.getElementById('gelbeins').style.backgroundColor="yellow";
-    document.getElementById('grueneins').style.backgroundColor="grey";
-    phase++;
-  }else if(phase==3){
-    console.log("P3: "+phase);
-    document.getElementById('roteins').style.backgroundColor="grey";
-    document.getElementById('gelbeins').style.backgroundColor="grey";
-    document.getElementById('grueneins').style.backgroundColor="green";
-    phase++;
-  }else if(phase==4){
-    console.log("P4: "+phase);
-    document.getElementById('roteins').style.backgroundColor="grey";
-    document.getElementById('gelbeins').style.backgroundColor="yellow";
-    document.getElementById('grueneins').style.backgroundColor="grey";
-    phase=1;
-  }
-
+  ampel1.switchState();
+  ampel2.switchState();
 }
