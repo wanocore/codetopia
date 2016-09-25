@@ -4,7 +4,7 @@ document.getElementById('demo').innerHTML = "Ampel aus";
 document.getElementById('roteins').style.backgroundColor="grey";
 }
 
-<<<<<<< HEAD
+
 function rotan (){
   document.getElementById('roteins').style.backgroundColor="red";
   document.getElementById('rotzwei').style.backgroundColor="red";
@@ -33,7 +33,7 @@ function gruenan (){
 function gruenaus (){
   document.getElementById('grueneins').style.backgroundColor="grey";
   document.getElementById('gruenzwei').style.backgroundColor="grey";
-=======
+
 var isRed=true;
 var isYellow=false;
 var isGreen=false;
@@ -70,5 +70,5 @@ function switchLights(){
   }
 
 
->>>>>>> refs/remotes/origin/master
+
 }
