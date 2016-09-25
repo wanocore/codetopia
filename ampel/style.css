@@ -1,1 +1,21 @@
 
+.ampel{
+  border-color: black;
+  width: auto;
+}
+
+.rot{
+    border-color: black;
+    background-color: red;
+    width: auto;
+}
+
+.gelb{
+    border-color: black;
+    background-color: yellow;
+}
+
+.gruen{
+    border-color: black;
+    background-color: green;
+}
