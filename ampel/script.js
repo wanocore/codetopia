@@ -34,9 +34,7 @@ function gruenaus(){
   document.getElementById('grueneins').style.backgroundColor="grey";
   document.getElementById('gruenzwei').style.backgroundColor="grey";
 }
-var isRed=true;
-var isYellow=false;
-var isGreen=false;
+var phase=1;
 
 function ampel(){
 
@@ -44,31 +42,25 @@ function ampel(){
 }
 
 function switchLights(){
-
-  if(isRed){
-    document.getElementById('roteins').style.backgroundColor="grey";
-    isRed=false;
-  }else{
+  if(phase==1){
+    console.log("P1");
     document.getElementById('roteins').style.backgroundColor="red";
-    isRed=true;
-  }
-
-  if(isYellow){
     document.getElementById('gelbeins').style.backgroundColor="grey";
-    isYellow=false;
-  }else{
-    document.getElementById('gelbeins').style.backgroundColor="yellow";
-    isYellow=true;
-  }
-
-  if(isGreen){
     document.getElementById('grueneins').style.backgroundColor="grey";
-    isGreen=false;
-  }else{
-    document.getElementById('grueneins').style.backgroundColor="green";
-    isGreen=true;
+    phase=2;
   }
-
-
-
+  if(phase==2){
+    console.log("P2");
+    document.getElementById('roteins').style.backgroundColor="red";
+    document.getElementById('gelbeins').style.backgroundColor="yellow";
+    document.getElementById('grueneins').style.backgroundColor="grey";
+    phase=3;
+  }
+  if(phase==3){
+    console.log("P3");
+    document.getElementById('roteins').style.backgroundColor="grey";
+    document.getElementById('gelbeins').style.backgroundColor="grey";
+    document.getElementById('grueneins').style.backgroundColor="green";
+    phase=1;
+  }
 }
