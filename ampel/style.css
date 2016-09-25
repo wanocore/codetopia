@@ -6,16 +6,19 @@
 
 .rot{
     border-color: black;
+    border-style: solid;
     background-color: red;
     width: auto;
 }
 
 .gelb{
     border-color: black;
+    border-style: solid;
     background-color: yellow;
 }
 
 .gruen{
     border-color: black;
+    border-style: solid;
     background-color: green;
 }
