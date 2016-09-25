@@ -48,18 +48,25 @@ function switchLights(){
     document.getElementById('roteins').style.backgroundColor="red";
     document.getElementById('gelbeins').style.backgroundColor="grey";
     document.getElementById('grueneins').style.backgroundColor="grey";
-    phase=2;
+    phase++;
   }else if(phase==2){
     console.log("P2: "+phase);
-    document.getElementById('roteins').style.backgroundColor="red";
+    document.getElementById('roteins').style.backgroundColor="grey";
     document.getElementById('gelbeins').style.backgroundColor="yellow";
     document.getElementById('grueneins').style.backgroundColor="grey";
-    phase=3;
+    phase++;
   }else if(phase==3){
     console.log("P3: "+phase);
     document.getElementById('roteins').style.backgroundColor="grey";
     document.getElementById('gelbeins').style.backgroundColor="grey";
     document.getElementById('grueneins').style.backgroundColor="green";
+    phase++;
+  }else if(phase==4){
+    console.log("P4: "+phase);
+    document.getElementById('roteins').style.backgroundColor="grey";
+    document.getElementById('gelbeins').style.backgroundColor="yellow";
+    document.getElementById('grueneins').style.backgroundColor="grey";
     phase=1;
   }
+
 }
