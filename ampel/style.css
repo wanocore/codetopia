@@ -2,12 +2,12 @@
 .ampel{
   border-color: black;
   width: 120px;
-  background: #000; // ampelbody färben
-  padding: 10px 0; // oben und unten abstand inerhalb des ampelbodys
+  background: #000; /* ampelbody färben */
+  padding: 10px 0; /* oben und unten abstand inerhalb des ampelbodys */
 }
 
 .rot, .gelb, .gruen{
-  margin: 0 auto; // Ampellichter mittig ausrichten
+  margin: 0 auto; /* Ampellichter mittig ausrichten */
 }
 
 .rot{
