@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-=======
-ersteFunktion() {
-
-
-}
-
-<<<<<<< HEAD
 switchOff(){
-console.log("test");
-=======
->>>>>>> refs/remotes/origin/master
-function switchOff(){
->>>>>>> origin/master
+console.console.log("ist drin");
 document.getElementById('demo').innerHTML = "Ampel aus";
 }
