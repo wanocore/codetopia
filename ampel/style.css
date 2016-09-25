@@ -3,7 +3,16 @@
   border-color: black;
   width: 120px;
   background: #000; /* ampelbody färben */
-  padding: 10px 0; /* oben und unten abstand inerhalb des ampelbodys */
+  padding: 10px 0px; /* oben und unten abstand inerhalb des ampelbodys */
+  float: left;
+}
+
+#center-box{
+  width: 240px;
+  margin: 0 auto;
+}
+.clear{
+  clear: both;
 }
 
 .rot, .gelb, .gruen{
