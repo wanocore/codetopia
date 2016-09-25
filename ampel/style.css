@@ -3,7 +3,7 @@
   border-color: black;
   width: 120px;
   background: #000; /* ampelbody färben */
-  padding: 10px 0; /* oben und unten abstand inerhalb des ampelbodys */
+  padding: 10px 0px; /* oben und unten abstand inerhalb des ampelbodys */
 }
 
 .rot, .gelb, .gruen{
