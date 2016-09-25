@@ -33,7 +33,7 @@ function gruenan(){
 function gruenaus(){
   document.getElementById('grueneins').style.backgroundColor="grey";
   document.getElementById('gruenzwei').style.backgroundColor="grey";
-
+}
 var isRed=true;
 var isYellow=false;
 var isGreen=false;
