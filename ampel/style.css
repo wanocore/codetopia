@@ -6,9 +6,16 @@
   padding: 10px 0px; /* oben und unten abstand inerhalb des ampelbodys */
   float: left;
 }
+.left-margin{
+  margin-left:5px;
+}
+.right-margin{
+  margin-right:5px;
+}
+
 
 #center-box{
-  width: 240px;
+  width: 250px;
   margin: 0 auto;
 }
 .clear{
