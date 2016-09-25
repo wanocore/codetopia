@@ -34,7 +34,7 @@ function gruenaus(){
   document.getElementById('grueneins').style.backgroundColor="grey";
   document.getElementById('gruenzwei').style.backgroundColor="grey";
 }
-var phase=0;
+var phase=1;
 
 function ampel(){
 
