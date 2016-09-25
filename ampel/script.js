@@ -1,4 +1,4 @@
 function switchOff(){
-  console.log("test");
-  document.getElementById('demo').innerHTML = "Ampel aus";
+console.console.log("ist drin");
+document.getElementById('demo').innerHTML = "Ampel aus";
 }
