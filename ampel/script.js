@@ -5,32 +5,32 @@ document.getElementById('roteins').style.backgroundColor="grey";
 }
 
 
-function rotan (){
+function rotan(){
   document.getElementById('roteins').style.backgroundColor="red";
   document.getElementById('rotzwei').style.backgroundColor="red";
 }
 
-function rotaus (){
+function rotaus(){
   document.getElementById('roteins').style.backgroundColor="grey";
   document.getElementById('rotzwei').style.backgroundColor="grey";
 }
 
-function gelban (){
+function gelban(){
   document.getElementById('gelbeins').style.backgroundColor="yellow";
   document.getElementById('gelbzwei').style.backgroundColor="yellow";
 }
 
-function gelbaus (){
+function gelbaus(){
   document.getElementById('gelbeins').style.backgroundColor="grey";
   document.getElementById('gelbzwei').style.backgroundColor="grey";
 }
 
-function gruenan (){
+function gruenan(){
   document.getElementById('grueneins').style.backgroundColor="green";
   document.getElementById('gruenzwei').style.backgroundColor="green";
 }
 
-function gruenaus (){
+function gruenaus(){
   document.getElementById('grueneins').style.backgroundColor="grey";
   document.getElementById('gruenzwei').style.backgroundColor="grey";
 
