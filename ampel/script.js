@@ -34,7 +34,7 @@ function gruenaus(){
   document.getElementById('grueneins').style.backgroundColor="grey";
   document.getElementById('gruenzwei').style.backgroundColor="grey";
 }
-var phase=0;
+var phase=1;
 
 function ampel(){
 
@@ -44,21 +44,19 @@ function ampel(){
 
 function switchLights(){
   if(phase==1){
-    console.log("P1");
+    console.log("P1: "+phase);
     document.getElementById('roteins').style.backgroundColor="red";
     document.getElementById('gelbeins').style.backgroundColor="grey";
     document.getElementById('grueneins').style.backgroundColor="grey";
     phase=2;
-  }
-  if(phase==2){
-    console.log("P2");
+  }else if(phase==2){
+    console.log("P2: "+phase);
     document.getElementById('roteins').style.backgroundColor="red";
     document.getElementById('gelbeins').style.backgroundColor="yellow";
     document.getElementById('grueneins').style.backgroundColor="grey";
     phase=3;
-  }
-  if(phase==3){
-    console.log("P3");
+  }else if(phase==3){
+    console.log("P3: "+phase);
     document.getElementById('roteins').style.backgroundColor="grey";
     document.getElementById('gelbeins').style.backgroundColor="grey";
     document.getElementById('grueneins').style.backgroundColor="green";
