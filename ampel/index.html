@@ -33,11 +33,12 @@
   <input class="w3-input w3-border w3-light-grey" type="text">
 </form>
   <button class="w3-btn w3-blue-grey" onclick="document.getElementById('demo').innerHTML = Date()">Button</button>
+  <button class="w3-btn w3-red" onclick="switchOff()">Button AUS!</button>
 
 
 <div id="center-box">
   <div class="ampel">
-    <div class="rot"></div> <!-- Hier 1 2 3 rausnehmen -->
+    <div class="rot" id="roteins"></div> <!-- Hier 1 2 3 rausnehmen -->
     <div class="gelb"></div>
     <div class="gruen"></div>
   </div>
