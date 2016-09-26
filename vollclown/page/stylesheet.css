@@ -1,0 +1,30 @@
+.col-xs-4 {
+
+}
+
+.col-lg-4+.col-lg-4{
+  background-color: yellow;
+}
+
+.col-lg-4+.col-lg-4+.col-lg-4{
+  background-color: green;
+}
+
+.navbar {
+    position: relative;
+}
+.brand {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+    margin: 0;
+    float: none;
+    text-align:center
+}
+
+#logo{
+  width: 0px;
+
+
+}

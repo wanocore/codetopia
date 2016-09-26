@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Voll Clown Theater</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--CDN link for  TweenMax-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
+<script>
+
+function myFunction(){
+TweenLite.to("#logo", 0.5, {width:"100%",delay:1,ease:Elastic.easeOut.config(1,0.3),y:0});
+
+
+TweenLite.to("h1", 15, {color:"red"});
+}
+
+</script>
+
+</head>
+<body onload="myFunction()">
+<!--
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        /*
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      */
+        <img class="navbar-brand" src="logo.png" alt="VollClownTheater" width="auto" height="auto">
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </nav>
+
+-->
+
+<div class="row">
+  <nav class="navbar navbar-default" style="margin-bottom: 0px;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        /*
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      */
+        <img class="navbar-brand" src="logo.png" alt="VollClownTheater" width="auto" height="auto">
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Page 1</a></li>
+        <li><a href="#">Page 2</a></li>
+        <li><a href="#">Page 3</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+
+<div class="row">
+  <div class="col-xs-4"></div>
+  <div class="col-xs-4" id="mitte"><img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
+  <div class="col-xs-4"></div>
+</div>
+
+
+
+
+<div class="container-fluid">
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+</div>
+</body>
+</html>
