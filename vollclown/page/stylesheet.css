@@ -32,5 +32,10 @@ p{
 }
 
 body{
-  padding-top: 70px;
+  padding-top: 0px;
+  /*padding-top: 70px;*/
+}
+
+.navbar-toggle {
+  float: left;
 }
