@@ -7,7 +7,16 @@
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
+<style>
+<!--
+  #logo{
+    position:absolute;
+    left: 50%;
+    top: 50px;
+    max-width: 300px;
+  }
+-->
+</style>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -24,7 +33,7 @@ TweenLite.to("h1", 15, {color:"red"});
 }
 
 function machKleiner(){
-  //TweenLite.to("#logo", 0.1, {scale:0.2});
+  //TweenLite.to("#logo", 0.1, {scale:0.8});
   //TweenLite.to("#logo", 0.1, {opacity:"0.2",z-index:"1",delay:1});
 
 }
@@ -34,12 +43,8 @@ function machKleiner(){
 </head>
 <body onload="myFunction()" onscroll="machKleiner()">
 
-  <div class="container-fluid">
-  <div class="row">
-    <div class="col-xs-6"></div>
-    <div class="col-xs-6"><img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
-  </div>
-  </div>
+<img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
+
 
 
 
