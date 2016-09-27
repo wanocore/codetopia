@@ -24,20 +24,26 @@ TweenLite.to("h1", 15, {color:"red"});
 }
 
 function machKleiner(){
-  TweenLite.to("#logo", 5, {scale:0.5,position:"absolute"});
-
+  TweenLite.to("#logo", 0.1, {scale:0.5});
+  //TweenLite.to("#logo", 0.1, {top:"0px"});
 
 }
 
 </script>
 
 </head>
-<body onload="myFunction()">
+<body onload="myFunction()" onscroll="machKleiner()">
+
+  <div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-6"></div>
+    <div class="col-xs-6"><img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
+  </div>
+  </div>
 
 
 
-
-      <nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -69,23 +75,49 @@ function machKleiner(){
     </div>
     </nav>
 
-<div class="container-fluid">
-<div class="row">
-  <div class="col-xs-6"></div>
-  <div class="col-xs-6"><img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
-</div>
-</div>
+
 
 <div class="container">
 <div class="row">
-  <div class="col-xs-4">
-    <h1>Herzlich Willkommen beim</h1>
+  <div class="col-xs-6">
+    <h1>DAS sind wir!</h1>
     <div class="well">
       <p>Wir sind ein neu gegründetes freies Kindertheater-Ensemble und bieten Kindertheaterstücke für Schulen, Kindergärten, Kindertagesstätten, Stadtfeste etc.!
        Während unserer Ausbildung zu staatlich anerkannten Clown-SchauspielerInnen haben wir gemeinsam bereits vier Produktionen von Kindertheaterstücken erfolgreich auf die Bühne gebracht.
        Da uns diese Arbeit sehr viel Freude bereitet hat, wollen wir damit selbstverständlich weitermachen und starten schon diesen Winter mit unserer Premiere!
+       Schauen Sie sich um und sprechen Sie uns über <a href="mailto:info@vollclowntheater.de" target="_top">info@vollclowntheater.de</a> an, wenn wir Ihr Interesse geweckt haben!
      </p>
-    </div>
+    </div></div>
+
+  <div class="col-xs-6"></div>
+</div>
+</div>
+
+
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
+        <h1>DAS ClownTeam!</h1>
+        <div class="well">
+          <p>Wir sind nicht nur  voll kreativ, voll spaßig, voll spannend, voll rotnasig, voll motiviert, voll ausgebildet *, voll-er Freude, voll besonders, voll bunt  und voll verspielt, wir sind einfach voll CLOWN!
+
+
+Und genau deshalb haben wir uns zusammengefunden, um gemeinsam ein freies Kindertheaterensemble zu gründen – das vollClown Theater!
+
+
+Die SpielerInnen sind:
+Paul Franzen
+Judith Montevecchi
+Tobias Thüring
+Rille Meinert
+Heidi Marx
+
+
+
+Außerdem dabei sind Elke Drews (Regie), Gordon Hartwig (Technik) und Kerstin Giulini (Kulisse, Kostüm).
+
+</p>
+        </div>
 
     <div class="well">
       <p>Wir sind ein neu gegründetes freies Kindertheater-Ensemble und bieten Kindertheaterstücke für Schulen, Kindergärten, Kindertagesstätten, Stadtfeste etc.!
@@ -101,8 +133,19 @@ function machKleiner(){
 </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6">
+      <h1>Unser Programm!</h1>
+      <div class="well">
+        <p>Der Weihnachtsabend naht.
 
 
+Die Herzen der fröhlichen Clowns schlagen schneller, denn die Vorfreude auf  Weihnachten hat sie gepackt. Voller Aufregung flitzen sie durchs ganze Haus, damit es ein richtig schönes Fest wird. Bei dem ganzen Drunter und Drüber ist es nicht leicht, den Überblick zu behalten!</p></div>
+    <div class="col-xs-6"></div>
+  </div>
+</div>
+</div>
 
 </body>
 </html>
