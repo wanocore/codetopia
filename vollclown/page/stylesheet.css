@@ -1,3 +1,7 @@
+@font-face { font-family: 'berliner-grotesk';
+             src: url('berliner-grotesk.ttf') format('truetype'); }
+
+
 .col-xs-4 {
 
 }
@@ -23,16 +27,7 @@
 
 #logo{
   opacity: 0;
-  z-index: 5;
-  position: fixed;
-  width: inherit;
-  top:0px;
-  /*margin-top: -30px;*/
-}
-
-#logo2{
-  opacity: 0;
-  z-index: 1031;
+  z-index: 1036;
   position: fixed;
   width: inherit;
   top:0px;
@@ -45,7 +40,11 @@
 
 p{
   /*height: 10000px;*/
-}
+  font: 10px berliner-grotesk, arial, sans-serif; }
+
+  h1{
+    font: 3em berliner-grotesk, arial, sans-serif !important;
+  }
 
 body{
   padding-top: 70px;
