@@ -20,8 +20,6 @@
 
 function myFunction(){
 TweenLite.to("#logo", 0.5, {opacity:"1",delay:0.2,ease:Power4.easeInoUT,y:0});
-
-
 TweenLite.to("h1", 15, {color:"red"});
 }
 
@@ -29,65 +27,70 @@ TweenLite.to("h1", 15, {color:"red"});
 
 </head>
 <body onload="myFunction()">
-<!--
-  <nav class="navbar navbar-default">
+
+
+
+
+      <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        /*
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
         <a class="navbar-brand" href="#">WebSiteName</a>
-      */
-        <img class="navbar-brand" src="logo.png" alt="VollClownTheater" width="auto" height="auto">
       </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Page 1-1</a></li>
+              <li><a href="#">Page 1-2</a></li>
+              <li><a href="#">Page 1-3</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+        <!--<ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul> -->
+      </div>
     </div>
-  </nav>
-
--->
-<div class="row">
-  <div class="col-xs-4"></div>
-  <div class="col-xs-4">
-  <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0px;">
-    <div class="container-fluid">
-      <!--
-      <div class="navbar-header">
-
-        <a class="navbar-brand" href="#">WebSiteName</a>
-
-        <img class="navbar-brand" src="logo.png" alt="VollClownTheater" width="auto" height="auto">
-      </div> -->
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-    </div>
-  </nav>
-</div>
-  <div class="col-xs-4"></div>
-</div>
-
-<div class="row">
-  <div class="col-xs-4"></div>
-  <div class="col-xs-4" id="mitte"><img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
-  <div class="col-xs-4"></div>
-</div>
-
-
-
-
-
-
-
+    </nav>
 
 <div class="container-fluid">
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<div class="row">
+  <div class="col-xs-3"></div>
+  <div class="col-xs-6" id="mitte"><img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
+  <div class="col-xs-3">
+  </div>
 </div>
+</div>
+
+<div class="container">
+<div class="row">
+  <div class="col-xs-4">
+    <h1>Herzlich Willkommen beim</h1>
+    <div class="well">
+      <p>Wir sind ein neu gegründetes freies Kindertheater-Ensemble und bieten Kindertheaterstücke für Schulen, Kindergärten, Kindertagesstätten, Stadtfeste etc.!
+       Während unserer Ausbildung zu staatlich anerkannten Clown-SchauspielerInnen haben wir gemeinsam bereits vier Produktionen von Kindertheaterstücken erfolgreich auf die Bühne gebracht.
+       Da uns diese Arbeit sehr viel Freude bereitet hat, wollen wir damit selbstverständlich weitermachen und starten schon diesen Winter mit unserer Premiere!
+     </p>
+    </div>
+  </div>
+  <div class="col-xs-8">
+<img class="img-responsive" src="vollClownTheaterCrew.JPG" alt="Crew">
+  </div>
+</div>
+</div>
+
+
+
+
 </body>
 </html>
