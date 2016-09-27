@@ -37,5 +37,6 @@ body{
 }
 
 .navbar-toggle {
-  float: left;
+  float: left !important;
+  margin-left: 15px;
 }
