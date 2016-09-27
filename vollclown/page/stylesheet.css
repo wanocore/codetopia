@@ -23,12 +23,25 @@
 
 #logo{
   opacity: 0;
+  z-index: 5;
+  position: fixed;
+  width: inherit;
+  top:0px;
+  /*margin-top: -30px;*/
+}
+
+#logo2{
+  opacity: 0;
   z-index: 1031;
   position: fixed;
   width: inherit;
   top:0px;
   margin-top: -70px;
 }
+
+
+
+
 
 p{
   /*height: 10000px;*/
@@ -42,4 +55,8 @@ body{
 .navbar-toggle {
   float: left !important;
   margin-left: 15px;
+}
+
+.navbar-fixed-top{
+  z-index: 3 !important;
 }
