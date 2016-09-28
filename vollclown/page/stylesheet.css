@@ -26,13 +26,38 @@ border-right: 1px dashed rgba(0, 0, 0, 0.1);
 -webkit-box-shadow: 0px 0px 1px 0px #cccccc;
 -moz-box-shadow: 0px 0px 1px 0px #cccccc;
 box-shadow: 0px 0px 1px 0px #cccccc;
--webkit-transform: rotate(6deg) skew(0,0) translate(0%,-5px);
--moz-transform: rotate(6deg) skew(0,0) translate(0%,-5px);
--o-transform: rotate(6deg) skew(0,0) translate(0%,-5px);
-transform: rotate(6deg) skew(0,0) translate(0%,-5px);
+-webkit-transform: rotate(-1deg) skew(0,0) translate(10%,22px);
+-moz-transform: rotate(-1deg) skew(0,0) translate(10%,22px);
+-o-transform: rotate(-1deg) skew(0,0) translate(10%,22px);
+transform: rotate(-1deg) skew(0,0) translate(10%,22px);
       z-index: 3; /****** Erklaerung z-index siehe unten ******/
 
 }
+
+.tesaBu{
+  /*background-color: white;
+  display: inline-block;
+  opacity: 0.7;*/
+    text-align: center;
+/*position:absolute;
+top:-15px; right:80px;*/
+width: inherit;
+/*height: 35px;*/
+background-color:#fff;
+opacity:0.7;
+border-left: 1px dashed rgba(0, 0, 0, 0.1);
+border-right: 1px dashed rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0px 0px 1px 0px #cccccc;
+-moz-box-shadow: 0px 0px 1px 0px #cccccc;
+box-shadow: 0px 0px 1px 0px #cccccc;
+-webkit-transform: rotate(-1deg) skew(0,0) translate(10%,22px);
+-moz-transform: rotate(-1deg) skew(0,0) translate(10%,22px);
+-o-transform: rotate(-1deg) skew(0,0) translate(10%,22px);
+transform: rotate(-1deg) skew(0,0) translate(10%,22px);
+      z-index: 3; /****** Erklaerung z-index siehe unten ******/
+
+}
+
 
 @font-face { font-family: 'berliner-grotesk';
              src: url('berliner-grotesk.ttf') format('truetype'); }
@@ -80,8 +105,16 @@ p{
   font: 1em berliner-grotesk, arial, sans-serif; }
 
   h1{
-    font: 3em berliner-grotesk, arial, sans-serif !important;
-  }
+    /*font: 2em berliner-grotesk, arial, sans-serif !important;*/
+    /*font-family: 'Gloria Hallelujah', cursive !important;*/
+    font-family: 'Kalam', cursive !important;
+    font-size: 3.5vmax !important;
+    opacity: 1 !important;
+    }
+
+    .email{
+      color: #e93db6 !important;
+    }
 
 body{
   background-color: transparent !important;
