@@ -6,8 +6,14 @@ html{
   background-size: cover;
 }
 
+.row{
+  padding-top: 5%;
+}
 
+.tesa{
+  background-color: white;
 
+}
 
 @font-face { font-family: 'berliner-grotesk';
              src: url('berliner-grotesk.ttf') format('truetype'); }
