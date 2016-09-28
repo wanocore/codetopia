@@ -42,7 +42,8 @@ html{
   position: fixed;
   width: inherit;
   top:0px;
-  margin-top: -70px;
+  right:0px;
+  /*margin-top: -70px;*/
 }
 
 
@@ -51,7 +52,7 @@ html{
 
 p{
   /*height: 10000px;*/
-  font: 10px berliner-grotesk, arial, sans-serif; }
+  font: 1em berliner-grotesk, arial, sans-serif; }
 
   h1{
     font: 3em berliner-grotesk, arial, sans-serif !important;
