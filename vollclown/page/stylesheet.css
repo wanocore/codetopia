@@ -1,3 +1,14 @@
+html{
+  background: url("vollclowneffekt2.jpg") no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
 @font-face { font-family: 'berliner-grotesk';
              src: url('berliner-grotesk.ttf') format('truetype'); }
 
@@ -47,6 +58,7 @@ p{
   }
 
 body{
+  background-color: transparent !important;
   padding-top: 70px;
   /*padding-top: 70px;*/
 }
