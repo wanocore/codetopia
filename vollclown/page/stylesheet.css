@@ -166,3 +166,8 @@ body{
 .navbar-fixed-top{
   z-index: 3 !important;
 }
+
+.img-rounded {
+    border-radius: 6px;
+    margin: 10px 5px;
+}
