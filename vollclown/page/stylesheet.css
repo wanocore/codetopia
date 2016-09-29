@@ -68,6 +68,25 @@ transform: rotate(-1deg) skew(0,0) translate(10%,22px);
     font-style: italic;
     text-align: -webkit-center;
     text-shadow: 5px 5px 7px darkgray;
+
+    /* width: auto; */
+padding: 10px 40px;
+display: inline-block;
+text-align: center;
+/* height: 35px; */
+/* background-color: #fff; */
+background-color: rgba(255, 255, 255, 0.7);
+/* opacity: 0.7; */
+border-left: 1px dashed rgba(0, 0, 0, 0.1);
+border-right: 1px dashed rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0px 0px 1px 0px #cccccc;
+-moz-box-shadow: 0px 0px 1px 0px #cccccc;
+box-shadow: 0px 0px 1px 0px #cccccc;
+-webkit-transform: rotate(-8deg) skew(0,0) translate(-8%,14px);
+-moz-transform: rotate(-8deg) skew(0,0) translate(-8%,14px);
+-o-transform: rotate(-8deg) skew(0,0) translate(-8%,14px);
+transform: rotate(-8deg) skew(0,0) translate(-8%,14px);
+z-index: 3;
 }
 
 
