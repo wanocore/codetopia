@@ -15,12 +15,32 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!--CDN link for  TweenMax-->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+<!--Favicons-->
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Kalam:700|Chewy" rel="stylesheet">
 
 <script>
 
 function myFunction(){
-TweenLite.to("#logo", 0.5, {opacity:"1",delay:0.2,ease:Power4.easeInoUT,y:0});
-TweenLite.to("h1", 15, {color:"red"});
+TweenLite.to("#logo", 1.5, {opacity:"1",delay:0.8,ease:Power4.easeInoUT,y:0});
+//TweenLite.to("h1", 15, {color:"#f22a59"});
 }
 
 function machKleiner(){
@@ -36,8 +56,8 @@ function machKleiner(){
 
   <div class="container-fluid">
   <div class="row">
-    <div class="col-xs-6"></div>
-    <div class="col-xs-6"><img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
+    <div class="col-xs-8"></div>
+    <div class="col-xs-4"><img class="img-responsive" id="logo" src="logo.png" alt="VollClownTheater"></div>
   </div>
   </div>
 
@@ -51,7 +71,7 @@ function machKleiner(){
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Voll Clown Theater</a>
+        <a class="navbar-brand" href="#">vollClown Theater</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
@@ -79,70 +99,76 @@ function machKleiner(){
 
 
 <div class="container">
-<div class="row">
-  <div class="col-xs-6">
+  <div class="row">
+  <div class="col-xs-8">
+    <div class="tesa">
     <h1>DAS sind wir!</h1>
+    </div>
     <div class="well">
       <p>Wir sind ein neu gegründetes freies Kindertheater-Ensemble und bieten Kindertheaterstücke für Schulen, Kindergärten, Kindertagesstätten, Stadtfeste etc.!
        Während unserer Ausbildung zu staatlich anerkannten Clown-SchauspielerInnen haben wir gemeinsam bereits vier Produktionen von Kindertheaterstücken erfolgreich auf die Bühne gebracht.
        Da uns diese Arbeit sehr viel Freude bereitet hat, wollen wir damit selbstverständlich weitermachen und starten schon diesen Winter mit unserer Premiere!
-       Schauen Sie sich um und sprechen Sie uns über <a href="mailto:info@vollclowntheater.de" target="_top">info@vollclowntheater.de</a> an, wenn wir Ihr Interesse geweckt haben!
+       Schauen Sie sich um und sprechen Sie uns über <a class="email"href="mailto:info@vollclowntheater.de" target="_top">info@vollclowntheater.de</a> an, wenn wir Ihr Interesse geweckt haben!
      </p>
     </div></div>
-
-  <div class="col-xs-6"></div>
-</div>
-</div>
+      <div class="col-xs-4"></div>
+</div></div>
 
 
-    <div class="container">
-    <div class="row">
-      <div class="col-xs-4">
-        <h1>DAS ClownTeam!</h1>
-        <div class="well">
-          <p>Wir sind nicht nur  voll kreativ, voll spaßig, voll spannend, voll rotnasig, voll motiviert, voll ausgebildet *, voll-er Freude, voll besonders, voll bunt  und voll verspielt, wir sind einfach voll CLOWN!
-
-
-Und genau deshalb haben wir uns zusammengefunden, um gemeinsam ein freies Kindertheaterensemble zu gründen – das vollClown Theater!
-
-
-Die SpielerInnen sind:
-Paul Franzen
-Judith Montevecchi
-Tobias Thüring
-Rille Meinert
-Heidi Marx
-
-
-
-Außerdem dabei sind Elke Drews (Regie), Gordon Hartwig (Technik) und Kerstin Giulini (Kulisse, Kostüm).
-
-</p>
-        </div>
-
-    <div class="well">
-      <p>Wir sind ein neu gegründetes freies Kindertheater-Ensemble und bieten Kindertheaterstücke für Schulen, Kindergärten, Kindertagesstätten, Stadtfeste etc.!
-       Während unserer Ausbildung zu staatlich anerkannten Clown-SchauspielerInnen haben wir gemeinsam bereits vier Produktionen von Kindertheaterstücken erfolgreich auf die Bühne gebracht.
-       Da uns diese Arbeit sehr viel Freude bereitet hat, wollen wir damit selbstverständlich weitermachen und starten schon diesen Winter mit unserer Premiere!
-     </p>
-    </div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-8">
+      <div class="tesa">
+    <h1>DAS ClownTeam!</h1>
   </div>
-  <div class="col-xs-8">
+      <div class="well">
+      <p>Wir sind nicht nur  voll kreativ, voll spaßig, voll spannend, voll rotnasig, voll motiviert, voll ausgebildet *, voll-er Freude, voll besonders, voll bunt  und voll verspielt, wir sind einfach voll CLOWN!
+      Und genau deshalb haben wir uns zusammengefunden, um gemeinsam ein freies Kindertheaterensemble zu gründen – das vollClown Theater!
+      <br><br>Die SpielerInnen sind:</p>
+
+      <ul>
+      <li>Paul Franzen</li>
+      <li>Judith Montevecchi</li>
+      <li>Tobias Thüring</li>
+      <li>Rille Meinert</li>
+      <li>Heidi Marx</li>
+      </ul>
+      <p>
+      Außerdem dabei sind Elke Drews (Regie), Gordon Hartwig (Technik) und Kerstin Giulini (Kulisse, Kostüm).
+      </p>
+      </div>
+
+  </div>
+  <div class="col-xs-4">
 <img class="img-responsive img-circle" src="vollClownTheaterCrew.JPG" alt="Crew">
 <p style="text-align:center">Bildunterschriften sind kuul.</p>
-  </div>
+</div>
 </div>
 </div>
 
 <div class="container">
   <div class="row">
-    <div class="col-xs-6">
-      <h1>Unser Programm!</h1>
+    <div class="col-xs-8">
+      <div class="tesa"><h1>Unser Programm!</h1></div>
       <div class="well">
-        <p>Der Weihnachtsabend naht.
+        <p>Der Weihnachtsabend naht. Die Herzen der fröhlichen Clowns schlagen schneller, denn die Vorfreude auf  Weihnachten hat sie gepackt.
+          Voller Aufregung flitzen sie durchs ganze Haus, damit es ein richtig schönes Fest wird.
+          Bei dem ganzen Drunter und Drüber ist es nicht leicht, den Überblick zu behalten!</p>
+          <p class="wiewas">Wie? Was? <span style="color: rgba(242, 42, 89, 1) !important;">Weihnachten?</span></p>
+        </div>
+      </div>
+    <div class="col-xs-4"></div>
+  </div>
+</div>
 
 
-Die Herzen der fröhlichen Clowns schlagen schneller, denn die Vorfreude auf  Weihnachten hat sie gepackt. Voller Aufregung flitzen sie durchs ganze Haus, damit es ein richtig schönes Fest wird. Bei dem ganzen Drunter und Drüber ist es nicht leicht, den Überblick zu behalten!</p></div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-6">
+      <div class="tesa"><h1>Termine</h1></div>
+      <div class="well">
+        <p>Hier finden Sie unsere Termine!</p></div>
     <div class="col-xs-6"></div>
   </div>
 </div>
