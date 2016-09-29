@@ -60,6 +60,18 @@ transform: rotate(-1deg) skew(0,0) translate(10%,22px);
 }
 
 
+
+.wiewas {
+    font-family: 'Chewy', cursive;
+    font-size: xx-large;
+    color: cornflowerblue;
+    font-style: italic;
+    text-align: -webkit-center;
+    text-shadow: 5px 5px 7px darkgray;
+}
+
+
+
 @font-face { font-family: 'berliner-grotesk';
              src: url('berliner-grotesk.ttf') format('truetype'); }
 
