@@ -1,5 +1,5 @@
 html{
-
+  /*Hier kann man das Hintergrund einstellen, einfach kommentare setzen/entfernen nach belieben*/
   /*  background: url("vollclowneffekt2.jpg") no-repeat center top fixed; */
   background: url("vollclownrgb.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -145,8 +145,20 @@ p{
     font-size: 3.5vmax !important;
     opacity: 1 !important;
     color: rgba(242, 42, 89, 1) !important;
-    /* WAS zum Henker, warum bekomm ich die h1 nicht full opacity 1!!! !?  */
     }
+
+    h3{
+      /*font: 2em berliner-grotesk, arial, sans-serif !important;*/
+      /*font-family: 'Gloria Hallelujah', cursive !important;*/
+      font-family: 'Kalam', cursive !important;
+      font-size: 3vmax !important;
+      opacity: 1 !important;
+      color: rgba(242, 42, 89, 1) !important;
+      }
+
+
+
+
 
     .email{
       color: #e93db6 !important;
